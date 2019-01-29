@@ -1,0 +1,14 @@
+<div class="select-category">
+    <select (change)="onSelect($event)">
+        <option value="all">Change category</option>
+        <option *ngFor="let category of categories" [value]="category.name">{{ category.name }}</option>
+    </select>
+</div>
+<div class="goods">
+    <div class="good" *ngFor="let good of goods" (click)="toGoodInfo(good)">
+        <h2>{{ good.name }}</h2>
+        <span><b>{{ good.price | currency }}</b></span>
+        <p>{{ good.description }}</p>
+        <button (click)="add(good)">Add</button>
+    </div>  
+</div>

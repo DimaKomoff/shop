@@ -1,0 +1,12 @@
+.goods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.good {
+    border: 1px black solid;
+    margin: 5px;
+    width: 20%;
+    cursor: pointer;
+}

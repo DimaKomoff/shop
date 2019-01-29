@@ -1,0 +1,72 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "name": "IPhone",
+      "category": "smartphone",
+      "price": 900,
+      "description": "some description"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy s9",
+      "category": "smartphone",
+      "price": 850,
+      "description": "some description"
+    },
+    {
+      "id": 3,
+      "name": "Philips Smart TV",
+      "category": "tv",
+      "price": 650,
+      "description": "some description"
+    },
+    {
+      "id": 4,
+      "name": "Apple watch s2",
+      "category": "watches",
+      "price": 350,
+      "description": "some description"
+    },
+    {
+      "id": 5,
+      "name": "Tefal I2039",
+      "category": "irons",
+      "price": 200,
+      "description": "some description"
+    },
+    {
+      "id": 6,
+      "name": "Tefal I2022",
+      "category": "irons",
+      "price": 250,
+      "description": "some description"
+    },
+    {
+      "id": 7,
+      "name": "Apple watch s3",
+      "category": "watches",
+      "price": 450,
+      "description": "some description"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "irons"
+    },
+    {
+      "id": 2,
+      "name": "tv"
+    },
+    {
+      "id": 3,
+      "name": "watches"
+    },
+    {
+      "id": 4,
+      "name": "smartphone"
+    }
+  ],
+  "basket": []
+}

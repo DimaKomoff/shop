@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    height: 40px;
+    background: lightblue;
+    padding: 1em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, div {
+    cursor: pointer;
+}
